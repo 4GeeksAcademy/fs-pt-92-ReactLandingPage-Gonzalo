@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "./Navbar";
 import Jumbotron from "./Jumbotron"
 import Card from "./Card"
+import Footer from "./Footer";
 
 //include images into your bundle
 import rigoImage from "../../img/rigo-baby.jpg";
@@ -27,7 +28,7 @@ const Home = () => {
 				buttonUrl="#"
 			/>
 
-			<div className="container-fluid">
+			<div className="container-fluid mb-3">
 				<div className="row">
 					<div className="col-lg-3 col-12">
 						<Card
@@ -67,6 +68,8 @@ const Home = () => {
 					</div>
 				</div>
 			</div>
+
+			<Footer copyright="Copyright My Website" />
 		</>
 
 	);
